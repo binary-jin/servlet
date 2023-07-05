@@ -31,7 +31,7 @@ public class MyView {
 
     private static void modelToRequestAttribute(Map<String, Object> model, HttpServletRequest request) {
         //모델에 있는 데이터를 forEach로 다 꺼내서 request.setAttribute로 key, value로 담아둠
-
+        //모델에 있는 데이터를 RequestAttribute로 바꾼다!
         model.forEach((key, value) -> request.setAttribute(key, value));
     }
 }

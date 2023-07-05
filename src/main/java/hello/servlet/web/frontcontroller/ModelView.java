@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class ModelView {
     private String viewName; //modelview에서 view 부분
-    private Map<String, Object> model = new HashMap<>(); //modelview에서 mdoel부분
+    private Map<String, Object> model = new HashMap<>(); //modelview에서 model부분
 
     public ModelView(String viewName) {
         this.viewName = viewName;
